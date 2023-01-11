@@ -1,0 +1,52 @@
+body{
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2{
+    text-align: center;
+    color: #ADA996;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#passwordLength{
+    text-align: center;
+    width: 10em;
+}
+
+#generatedPassword{
+    text-align: center;
+    height: 2em;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.cuadro{
+    height: 10em;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #4AC29A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#GeneratePwdButton {
+    color: rgb(233, 236, 225); font-size: 13px; line-height: 13px; padding: 6px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, #434343, #000000); rgb(20, 78, 117) 100%); box-shadow: rgba(0, 0, 0, 0) 5px 5px 0px 5px; border: 2px solid rgb(255, 255, 255); display: inline-block;
+}
+    #GeneratePwdButton:hover {
+    background: linear-gradient(to right, #434343, #434343)
+}
+    #GeneratePwdButton:active {
+    background: #144E75
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="media/img/keyboard.svg" type="image/x-icon">
+    <script src="script.js" ></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de contraseñas</title>
+</head>
+<body>
+    <h2>Generador de contraseñas</h2>
+
+    <div class="cuadro" >
+        <label for="passwordLength">Elige un tamaño para la contraseña</label>
+        <p>
+        <input type="number" id="passwordLength" min="1" max="20" value="16">
+        </p>
+
+        <div>
+            <input type="checkbox" id="checkNumbers">
+            <label for="checkNumbers">Incluir números</label>
+        </div>
+        <div>
+            <input type="checkbox" id="checkSymbols">
+            <label for="checkSymbols">Incluir simbolos</label>
+        </div>
+        <div>
+            <button id="GeneratePwdButton">Generar contraseña</button>
+        </div>
+        
+    </div>
+    <p id="generatedPassword" class="badge bg-success"></p>
+
+</body>
+</html>
